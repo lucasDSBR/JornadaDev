@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react';
-
+import VideoFooter from './components/footer/VideoFooter';
 function Video() {
 	const videoRef = useRef(null);
 	const [play, setPlay] = useState(false);
@@ -25,6 +25,8 @@ function Video() {
 				loop
 			>
 			</video>
+			{/*Side bar*/}
+			<VideoFooter/>
 		</div>
 	)
 }
