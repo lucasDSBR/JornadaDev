@@ -24,8 +24,9 @@ html {
 
 /* esconde a scrollbar chrome, safari e opera*/
 
-.app__video::webkit-scrollbar{
-	display: none;
+::-webkit-scrollbar {
+	width: 0px;
+	background: transparent; /* make scrollbar transparent */
 }
 
 /* esconde a scrollbar chrome, safari e opera*/
